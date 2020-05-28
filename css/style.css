@@ -10,16 +10,14 @@ body {
   margin: 0;
 }
 
-h1 {
-  font-family: 'Raleway', Helvetica, Arial, sans-serif;
-  font-size: 50px;
-  line-height: 70px;
-}
-
 p {
-  font-family: 'Goudy Bookletter 1911', Georgia, Times, serif;
+  font-family: "Goudy Bookletter 1911", Georgia, Times, serif;
   font-size: 15px;
   line-height: 25px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Raleway", Helvetica, Arial, sans-serif;
 }
 
 /*Navbar*/
@@ -48,8 +46,8 @@ p {
 
 .navbar-brand {
   font: 400 28px/1.3 'Oleo Script', Helvetica, sans-serif;
-  color: #5C3335;
-  text-shadow: 4px 4px 0px rgba(110, 105, 105, 0.363);
+  color: #197278;
+  text-shadow: 4px 4px 0px rgba(80, 76, 76, 0.445);
   margin: 0;
   padding-left: 200px;
 }
@@ -60,10 +58,10 @@ p {
 
 .navigation a {
   text-decoration: none;
-  color: #5C3335;
+  color: #3D3D3E;
   font-size: 15px;
   font-weight: bolder;
-  font-family: 'Raleway', Helvetica, Arial, sans-serif;
+  font-family: "Raleway", Helvetica, Arial, sans-serif;
 }
 
 .navigation li {
@@ -95,13 +93,18 @@ ul {
   color: #3D3D3E;
 }
 
+.splash-inner h1 {
+  font-family: "Raleway", Helvetica, Arial, sans-serif;
+}
+
 .splash-inner h2 {
   font-style: italic;
   font-size: 30px;
+  font-family: 'Goudy Bookletter 1911', Georgia, Times, serif;
 }
 
 .btn {
-  background-color: #8C7F86;
+  background-color: #197278;
   /* Green */
   border: none;
   color: white;
@@ -110,5 +113,25 @@ ul {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+}
+
+/*Services*/
+.services {
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.title, .icons {
+  margin: auto;
+  text-align: center;
+}
+
+i.fa {
+  margin: 0.5em;
+  color: #197278;
+  border: 2px solid #197278;
+  border-radius: 50%;
+  padding: 0.5em;
+  transition: all .5s ease;
 }
 /*# sourceMappingURL=style.css.map */
