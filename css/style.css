@@ -142,6 +142,18 @@ i.fa {
 /*Portfolio*/
 .three {
   background: #E9F1F3;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .three {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  padding: 30 0 0 0;
 }
 
 .card {
@@ -156,4 +168,6 @@ i.fa {
   overflow: hidden;
   left: 0;
 }
+
+/*Footer*/
 /*# sourceMappingURL=style.css.map */
