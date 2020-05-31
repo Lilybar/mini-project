@@ -14,6 +14,8 @@ p {
   font-family: "Raleway", serif;
   font-size: 15px;
   line-height: 25px;
+  color: #8a9599;
+  font-style: italic;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -46,14 +48,15 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar-brand {
   font: 400 28px/1.3 'Oleo Script', Helvetica, sans-serif;
-  color: #197278;
+  color: #22656D;
   text-shadow: 4px 4px 0px rgba(80, 76, 76, 0.445);
   margin: 0;
   padding-left: 200px;
+  padding-top: 0;
 }
 
 .navigation {
-  padding: 12px;
+  padding: 30px;
 }
 
 .navigation a {
@@ -63,6 +66,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat", sans-serif;
   font-family: 'Raleway', sans-serif;
   font-weight: lighter;
+  padding: 0;
 }
 
 .navigation li {
@@ -75,12 +79,12 @@ h1, h2, h3, h4, h5, h6 {
 ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding-right: 10px;
 }
 
 /*Splash*/
 .splash {
-  min-height: 500px;
+  min-height: 610px;
   display: -ms-flexbox;
   display: flex;
 }
@@ -91,13 +95,14 @@ ul {
 }
 
 .splash-inner h1, h2 {
-  color: #3D3D3E;
+  color: black;
 }
 
 .splash-inner h1 {
   font-family: "Montserrat", sans-serif;
   letter-spacing: 2px;
   font-weight: bolder;
+  font-size: 70px;
 }
 
 .splash-inner h2 {
@@ -108,21 +113,39 @@ ul {
 }
 
 .btn {
-  background-color: #197278;
-  /* Green */
+  background-color: #22656D;
   border: none;
   color: white;
-  padding: 15px 32px;
+  padding: 28px 32px;
   text-align: center;
   text-decoration: none;
+  font-weight: bold;
   display: inline-block;
   font-size: 16px;
+  min-height: 80px;
+  min-width: 250px;
+  font-family: "Montserrat", sans-serif;
 }
 
 /*Services*/
 .services {
   display: -ms-flexbox;
   display: flex;
+  min-height: 580px;
+}
+
+.title h2 {
+  font-size: 38px;
+  padding: 0;
+  margin: 0;
+}
+
+.services2 {
+  padding-top: 40px;
+}
+
+.services p {
+  margin: 0;
 }
 
 .title, .icons {
@@ -137,11 +160,15 @@ i.fa {
   border-radius: 50%;
   padding: 0.5em;
   transition: all .5s ease;
+  font-size: 30px;
 }
 
 /*Portfolio*/
-.three {
+.three-back {
   background: #E9F1F3;
+}
+
+.three {
   display: -ms-flexbox;
   display: flex;
 }
@@ -170,4 +197,23 @@ i.fa {
 }
 
 /*Footer*/
+.footer {
+  min-height: 80px;
+}
+
+.footer h6 {
+  margin: 0;
+  font-size: 15px;
+}
+
+.footer h6, i {
+  font-family: "Raleway", serif;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.footer i {
+  font-size: 30px;
+  color: #22656D;
+}
 /*# sourceMappingURL=style.css.map */
