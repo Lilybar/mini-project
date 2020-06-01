@@ -186,6 +186,11 @@ i.fa {
 .card {
   background: white;
   background-size: cover;
+  height: 100%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
 }
 
 .card img {
@@ -194,6 +199,12 @@ i.fa {
   height: 100%;
   overflow: hidden;
   left: 0;
+  -ms-flex: 1;
+      flex: 1;
+}
+
+.margin-b {
+  margin-bottom: 20px;
 }
 
 /*Footer*/

@@ -187,6 +187,9 @@ i.fa {
 .card {
     background: white;
     background-size: cover;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .card img {
@@ -195,6 +198,11 @@ i.fa {
     height: 100%;
     overflow: hidden;
     left: 0;
+    flex: 1;
+}
+
+.margin-b {
+    margin-bottom: 20px;
 }
 
 /*Footer*/
@@ -217,4 +225,9 @@ i.fa {
  .footer i {
     font-size: 30px;
     color: #22656D;
+ }
+
+
+ @media (max-width: 767px) {
+
  }
