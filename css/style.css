@@ -272,5 +272,8 @@ i.fa {
     -ms-flex-align: center;
         align-items: center;
   }
+  .buttons ul {
+    transform: translate(-10%);
+  }
 }
 /*# sourceMappingURL=style.css.map */

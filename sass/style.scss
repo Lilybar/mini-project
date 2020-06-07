@@ -265,7 +265,7 @@ i.fa {
         padding-bottom: 40px;
     }
 
-    .navbar-brand{
+    .navbar-brand {
         text-align: center;
     }
 
@@ -274,4 +274,8 @@ i.fa {
         text-align: center;
         align-items: center;
     }
+
+    .buttons ul {
+        transform: translate(-10%);
+     }
  }
