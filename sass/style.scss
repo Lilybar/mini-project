@@ -89,6 +89,10 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0 36px 0 0;
     position: relative;
     padding: 5px 0;
+
+    &:hover a {
+        color: #22656D;
+      }
 }
 
 ul {
@@ -222,7 +226,6 @@ i.fa {
 /*Footer*/
 
 .footer {
-    min-height: 80px;
     padding-top: 40px;
     padding-bottom: 40px;
 }
@@ -245,8 +248,8 @@ i.fa {
     display: inline-block;
  }
 
- ul .i {
-    transform: translate(-50%);
+ .buttons ul {
+    transform: translate(-70%);
  }
 /*RWD*/
 
@@ -260,5 +263,15 @@ i.fa {
     .services {
         padding-top: 40px;
         padding-bottom: 40px;
+    }
+
+    .navbar-brand{
+        text-align: center;
+    }
+
+    .navigation li {
+        display: block;
+        text-align: center;
+        align-items: center;
     }
  }

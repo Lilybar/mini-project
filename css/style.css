@@ -86,6 +86,10 @@ h1, h2, h3, h4, h5, h6 {
   padding: 5px 0;
 }
 
+.navigation li:hover a {
+  color: #22656D;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -221,7 +225,6 @@ i.fa {
 
 /*Footer*/
 .footer {
-  min-height: 80px;
   padding-top: 40px;
   padding-bottom: 40px;
 }
@@ -244,8 +247,8 @@ i.fa {
   display: inline-block;
 }
 
-ul .i {
-  transform: translate(-50%);
+.buttons ul {
+  transform: translate(-70%);
 }
 
 /*RWD*/
@@ -259,6 +262,15 @@ ul .i {
   .services {
     padding-top: 40px;
     padding-bottom: 40px;
+  }
+  .navbar-brand {
+    text-align: center;
+  }
+  .navigation li {
+    display: block;
+    text-align: center;
+    -ms-flex-align: center;
+        align-items: center;
   }
 }
 /*# sourceMappingURL=style.css.map */
